@@ -8,6 +8,122 @@
 <a href="https://trendshift.io/repositories/2415" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2415" alt="Mintplex-Labs%2Fanything-llm | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
+---
+> 📦 **Repository Category**: `AI/LLM Repositories`
+> 
+> 🧠 Part of the [PromptLite Automation Hub](https://github.com/promptlite-ai)
+> 
+> 🇮🇩 **Optimized for Southeast Asia – Localized for Indonesian Businesses**
+---
+
+# 🤖 AnythingLLM by PromptLite
+
+> **“Empower your business to chat with anything – documents, websites, databases – using your own AI assistant.”**
+
+Forked from [Mintplex Labs](https://github.com/Mintplex-Labs/anything-llm) and enhanced for Indonesian entrepreneurs, SMEs, and AI developers.
+
+---
+
+## 🚀 Why AnythingLLM?
+
+AnythingLLM lets you:
+- 💬 Build your own RAG-based knowledge assistant
+- 📄 Upload & query PDFs, Notion pages, websites, and codebases
+- 🔧 Connect to your preferred LLM: OpenAI, Anthropic, Local models
+- 📚 Use multiple vector DBs: Qdrant, Pinecone, Chroma, etc.
+- 🌐 Deploy self-hosted, locally, or on the cloud
+
+## 🌍 Indonesian Use Cases (Sample)
+
+| Use Case                              | Description                                                                 |
+|--------------------------------------|-----------------------------------------------------------------------------|
+| **LegalBot untuk Notaris**           | Upload akta, peraturan, UU → Chat untuk tanya isi atau kesimpulan hukum     |
+| **EduBot untuk Guru/Ortu**           | Upload materi belajar siswa → Tanya jawab seperti guru privat AI            |
+| **Customer Support UMKM**           | Upload FAQ, SOP → Jadikan agen layanan pelanggan 24/7 dengan chat interface |
+| **Internal SOP Assistant**           | Percepat onboarding dan tanya SOP internal secara otomatis                 |
+
+---
+
+## ✨ Key Features
+
+- ✅ Simple & fast document ingestion
+- ✅ Multi-user support for teams
+- ✅ Fine-tuned access permissions
+- ✅ Whisper for speech-to-text
+- ✅ Codebase-aware search (great for devs)
+
+---
+
+## 🧠 Supported Models & Tools
+
+**LLMs:**
+- OpenAI (GPT-3.5, GPT-4, GPT-4o)
+- Claude (via API key)
+- Ollama / Local models (LLaMA, Mistral, Yi, etc)
+
+**Vector DBs:**
+- Qdrant *(recommended by PromptLite)*
+- Chroma
+- Pinecone
+- Milvus
+
+---
+
+## 🔧 Setup & Deployment
+
+See full docs: [official documentation](https://docs.anythingllm.dev/)
+
+```bash
+# Basic Dev Install
+pnpm install
+pnpm dev
+```
+
+### 🐳 Dockerized Deployment
+```bash
+docker-compose up -d
+```
+
+PromptLite deploys this on EasyPanel + Docker with port 3001 as default.
+
+---
+
+## 💡 PromptLite Enhancements
+
+- 🇮🇩 Local-first config (Qdrant + Bahasa-ready prompts)
+- 📦 Bundled with EduBot & LegalBot in PromptLite SaaS
+- 🔐 OAuth2 + Firebase-compatible login
+- 🔌 Optimized for n8n / Zapier integrations
+
+---
+
+## 📌 Coming Soon (PromptLite Roadmap)
+
+- 🔁 Integration with WhatsApp Bot Memory (Redis + AnythingLLM)
+- 📊 Admin Dashboard with usage stats
+- 🌐 Indonesian voice-to-text module (Whisper ID)
+- 🤖 Prompt Template Marketplace
+
+---
+
+## 📣 Credits & License
+
+This project is a fork of [Mintplex Labs' AnythingLLM](https://github.com/Mintplex-Labs/anything-llm), licensed under the MIT license. PromptLite has localized, documented, and optimized this for use across Southeast Asia.
+
+All rights to original contributors are fully respected and acknowledged.
+
+---
+
+## 🙌 Part of the PromptLite Ecosystem
+
+> Discover 50+ automation tools and AI agents designed for Southeast Asian entrepreneurs:
+
+🔗 [Visit PromptLite GitHub](https://github.com/promptlite-ai)  
+🔗 [Join Community @ NAS.io](https://nas.io/otomasi-bisnis-id)  
+🔗 [PromptLite Website](https://promptlite.id)
+
+---
+
 <p align="center">
     <b>AnythingLLM:</b> The all-in-one AI app you were looking for.<br />
     Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating setup required.
@@ -287,3 +403,5 @@ This project is [MIT](./LICENSE) licensed.
 [repocloud-deploy]: https://repocloud.io/details/?app_id=276
 [elestio-btn]: https://elest.io/images/logos/deploy-to-elestio-btn.png
 [elestio-deploy]: https://elest.io/open-source/anythingllm
+
+© 2025 PromptLite Automation • Empowering Local AI Innovation
